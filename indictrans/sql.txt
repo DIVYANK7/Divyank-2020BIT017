@@ -1,0 +1,30 @@
+//QUE NO 11
+select *
+from Customers
+inner join Orders
+on Customers.ID= Orders.Customer_ID
+Group by Customer_ID
+Having COUNT(Customer_ID)>1;
+
+//QUE NO 12
+select AVG(Gross_total)
+From Orders
+group by Customer_ID
+
+// QUE NO 13
+
+Update Customers
+Set City = "Mumbai"
+Where City ="Delhi";
+
+//QUE NO 14
+Delete *
+From Logs
+Where CurrYear - YEAR(Datetime)>1;
+
+//QUE NO 15
+Select * LIMIT(5)
+From Employees
+Order by Salary DESC;
+
+//QUE NO 16

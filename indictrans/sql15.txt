@@ -1,0 +1,5 @@
+//QUE NO 15
+
+Select * LIMIT(5)
+From Employees
+Order by Salary DESC;

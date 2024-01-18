@@ -1,0 +1,8 @@
+//QUE NO 11
+
+select *
+from Customers
+inner join Orders
+on Customers.ID= Orders.Customer_ID
+Group by Customer_ID
+Having COUNT(Customer_ID)>1;

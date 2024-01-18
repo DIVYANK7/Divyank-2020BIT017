@@ -1,0 +1,5 @@
+//QUE NO 12
+
+select AVG(Gross_total)
+From Orders
+group by Customer_ID;

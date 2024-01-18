@@ -1,0 +1,5 @@
+//QUE NO 14
+
+Delete *
+From Logs
+Where CurrYear - YEAR(Datetime)>1;

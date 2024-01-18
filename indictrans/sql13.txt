@@ -1,0 +1,5 @@
+//QUE NO 13
+
+Update Customers
+Set City = "Mumbai"
+Where City ="Delhi";
